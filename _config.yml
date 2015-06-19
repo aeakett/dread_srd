@@ -1,0 +1,6 @@
+# Site settings
+title: Title Goes Here
+baseurl: "/tgh" # the subpath of your site, e.g. /blog/
+url: "http://super-awesome.com" # the base hostname & protocol for your site
+destination: dist
+
