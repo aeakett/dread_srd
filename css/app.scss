@@ -2,10 +2,11 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-@import "h5bp";
-@import "main"; //this is where we put our stuff
 @import "settings";
 @import "foundation";
+@import "normalize";
+@import "main"; //this is where we put our stuff
+@import "h5bp";
 body {background: #666;}
 // Or selectively include components
 // @import

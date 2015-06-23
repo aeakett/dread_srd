@@ -1,5 +1,7 @@
 /* put your styles here */
 
+$dreadRed: #730101;
+
 @font-face {
    font-family: 'attic';
    src: url('fonts/attic/attic-webfont.eot');
@@ -17,7 +19,7 @@
 }
 
 body {
-   font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif !important;
+   font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
 }
 
 .dread, .introFlav, .answer {
@@ -29,5 +31,13 @@ body {
 }
 
 h1, h2, h3 {
-   font-family: attic, serif !important;
+   font-family: attic, serif;
+}
+
+a, a:hover {
+   color: $dreadRed;
+}
+
+a:hover {
+   text-decoration: underline;
 }
