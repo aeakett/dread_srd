@@ -4,12 +4,8 @@ $dreadRed: #730101;
 
 @font-face {
    font-family: 'attic';
-   src: url('fonts/attic/attic-webfont.eot');
-   src: url('fonts/attic/attic-webfont.eot?#iefix') format('embedded-opentype'),
-        url('fonts/attic/attic-webfont.woff2') format('woff2'),
-        url('fonts/attic/attic-webfont.woff') format('woff'),
-        url('fonts/attic/attic-webfont.ttf') format('truetype'),
-        url('fonts/attic/attic-webfont.svg#atticregular') format('svg');
+   src: url('fonts/attic/attic-webfont.woff2') format('woff2'),
+        url('fonts/attic/attic-webfont.woff') format('woff');
    font-weight: normal;
    font-style: normal;
 }
@@ -40,4 +36,30 @@ a, a:hover {
 
 a:hover {
    text-decoration: underline;
+}
+
+/*#questionTickerBorder {
+   width: 100%;
+   background-image: linear-gradient(to bottom,rgba(55,15,15,0.3),transparent);
+   height: 0.5em;
+   top: 3em;
+}*/
+
+#questionTickerContainer {
+   position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	text-align: center;
+	background: #fff;
+   border-width: 3px 0 0 0;
+   border-style: solid;
+	border-image-source: linear-gradient(to bottom,rgba(55,15,15,0.3),transparent) 
+	ul {
+      text-align: center;
+		background-color: #f06;
+		width: 100%;
+		font-style: italic;
+	}
 }
