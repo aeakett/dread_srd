@@ -91,6 +91,7 @@ $include-html-global-classes: $include-html-classes;
 // We use these to define default font stacks
 $font-family-sans-serif: Corbel, Calibri, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
 // $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
+$font-family-serif: Constantia, 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
 // We use these to define default font weights
@@ -129,6 +130,7 @@ $font-family-sans-serif: Corbel, Calibri, "Bitstream Vera Sans", "DejaVu Sans", 
 // $body-bg: $white;
 // $body-font-color: $jet;
 // $body-font-family: $font-family-sans-serif;
+$body-font-family: $font-family-serif;
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
 
