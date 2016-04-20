@@ -43,13 +43,34 @@ $sidebarPercentage: .85rem;
    }
 }
 
+.example {
+   border-left: 1px solid #000;
+   border-right: 1px solid #000;
+   padding-left: 1em;
+   padding-right: 1em;
+}
+
 /*body {
    font-family: Constantia, 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
 }*/
 
+body {
+   background: linear-gradient(to right, rgba(0,0,0,0.4) 0%, rgba(0,0,0,1) 20%, rgba(0,0,0,1) 80%, rgba(0,0,0,0.4) 100%), url("../img/background.png");
+
+}
+
 .dread, .introFlav, .answer {
    font-style: italic;
 }
+
+.introFlav {
+   padding-left: 3em;
+   padding-right: 3em;
+}
+
+.initCap { float: left; font-size: 3.5em; line-height: 60px; padding-top: 0px; padding-right: 8px; padding-left: 3px; font-family: granny; }
+
+.pulls {padding-left: 3em;}
 
 .question {
    font-weight: bold;
@@ -91,4 +112,15 @@ a:hover {
 		width: 100%;
 		font-style: italic;
 	}
+}
+
+.legalJazz {
+   margin-top: 1em ;
+   margin-bottom: 5em;
+   padding-top: 20px;
+   background-color: #fff;
+   div p {
+      font-size: 75%;
+      line-height: 1.6*.75;
+   }
 }
