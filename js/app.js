@@ -1,4 +1,5 @@
 $(document).foundation();
 $(function() {
-  $('#questionTicker').vTicker();
+   $('#questionTicker').vTicker();
+   FastClick.attach(document.body);
 });
