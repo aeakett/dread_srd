@@ -125,17 +125,13 @@ a:hover {
    }
 }
 
-/*.navList li a:hover {
-   text-decoration: none;
-}*/
 .navList, .navList ul {list-style-type: none;}
 .navList li a {
    color: #ccc !important;
    font-family: sans-serif;
    font-size: 1rem;
 }
-/*.navList .toggle {float: right; margin-right: 1em;}
-.navList .toggle + ul {display: none;}*/
+
 .navList li {
    padding-top: 0.66667rem;
    padding-bottom: 0.66667rem;
