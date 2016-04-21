@@ -1,5 +1,6 @@
 # Site settings
 title: Unofficial Dread SRD
+description: Home of the Unofficial Dread SRD
 baseurl: "/dread_srd" # the subpath of your site, e.g. /blog/
 url: "http://eakett.ca" # the base hostname & protocol for your site
 destination: dist

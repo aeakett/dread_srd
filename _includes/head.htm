@@ -7,9 +7,9 @@
    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
    <link rel="stylesheet" href="{{ "/css/app.css" | prepend: site.baseurl }}">
-	<script src="{{ "/js/modernizr.js" | prepend: site.baseurl }}"></script>
+   <script src="{{ "/js/modernizr.js" | prepend: site.baseurl }}"></script>
    <link rel="canonical" href="{{ page.url | replace:'index.htm','' | prepend: site.baseurl | prepend: site.url }}">
-  
+
    <link rel="icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
    <!-- For non-Retina (@1× display) iPhone, iPod Touch, and Android 2.1+ devices: -->
    <link rel="apple-touch-icon-precomposed" href="{{ "/apple-touch-icon-precomposed.png" | prepend: site.baseurl }}"><!-- 57×57px -->
@@ -30,9 +30,11 @@
    <!-- For Chrome for Android: -->
    <link rel="icon" sizes="192x192" href="{{ "/touch-icon-192x192.png" | prepend: site.baseurl }}">
 
-	<meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="{{ site.baseurl }}{{ page.url }}">
-	<meta property="og:image" content="{{ "/touch-icon-192x192.png" | prepend: site.baseurl }}">
+   <meta property="og:description" content="Home of the Unofficial Dread SRD">
+   <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+   <meta property="og:type" content="website">
+   <meta property="og:url" content="{{ page.url | replace:'index.htm','' | prepend: site.baseurl | prepend: site.url }}">
+   <meta property="og:image" content="{{ "/og.png" | prepend: site.baseurl | prepend: site.url }}">
+
 
 </head>
