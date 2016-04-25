@@ -129,6 +129,7 @@ a:hover {
       font-size: 75%;
       line-height: 1.6*.75;
    }
+   background: url("../img/menu-hand-red.png") no-repeat -9999px -9999px;
 }
 
 .navList {
@@ -152,5 +153,17 @@ a:hover {
       height: 100%;
       width: 100%;
       &:hover {text-decoration:none;}
+   }
+}
+
+nav.tab-bar section.left-small a.left-off-canvas-toggle {
+   background-image: url("../img/menu-hand.png");
+   height: 100%;
+   width: 100%;
+   display: block;
+   transition: background-image .15s ease-in-out;
+   &:hover {
+      background-image: url("../img/menu-hand-red.png");
+      transition: background-image .15s ease-in-out;
    }
 }
