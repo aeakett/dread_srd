@@ -22,13 +22,16 @@ $sidebarPercentage: .85rem;
 
 .flesh {border-left: 1px solid #000;}
 .marrow {
-   border-style: solid;
-   border-width: 85px 85px 86px;
-   -moz-border-image: url(img/border.png) 85 85 86 repeat;
+   //border-style: solid;
+   //border-width: 85px 85px 86px;
+   /*-moz-border-image: url(img/border.png) 85 85 86 repeat;
    -webkit-border-image: url(img/border.png) 85 85 86 repeat;
    -o-border-image: url(img/border.png) 85 85 86 repeat;
-   border-image: url(img/border.png) 85 85 86 fill repeat;
+   border-image: url(img/border.png) 85 85 86 fill repeat;*/
+   position: relative;
 }
+.marrowTop {position: absolute; top: 0; left: 0;}
+.marrowBottom {position: absolute; bottom: 0; right: 0;}
 .flesh, .marrow {
    width: 50%;
    float: right;
