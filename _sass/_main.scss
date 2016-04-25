@@ -113,6 +113,9 @@ a:hover {
       font-style: italic;
    }
 }
+/* hide ticker on small screens */
+@media #{$small-only} { #questionTickerContainer {display: none;} }
+@media #{$medium-only} {#questionTickerContainer {display: none;} }
 
 .legalJazz {
    margin-top: 1em ;
