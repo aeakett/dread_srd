@@ -21,15 +21,7 @@ $sidebarPercentage: .85rem;
 }
 
 .flesh {border-left: 1px solid #000;}
-.marrow {
-   //border-style: solid;
-   //border-width: 85px 85px 86px;
-   /*-moz-border-image: url(img/border.png) 85 85 86 repeat;
-   -webkit-border-image: url(img/border.png) 85 85 86 repeat;
-   -o-border-image: url(img/border.png) 85 85 86 repeat;
-   border-image: url(img/border.png) 85 85 86 fill repeat;*/
-   position: relative;
-}
+.marrow {position: relative;}
 .marrowTop {position: absolute; top: 0; left: 0;}
 .marrowBottom {position: absolute; bottom: 0; right: 0;}
 .flesh, .marrow {
@@ -99,10 +91,6 @@ a:hover {
 }*/
 
 #questionTickerContainer {
-   position: fixed;
-   right: 0;
-   bottom: 0;
-   left: 0;
    padding: 1rem;
    text-align: center;
    background: #fff;
@@ -115,6 +103,12 @@ a:hover {
       width: 100%;
       font-style: italic;
    }
+}
+.qtcAnchor {
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   left: 0;
 }
 /* hide ticker on small screens */
 @media #{$small-only} { #questionTickerContainer {display: none;} }
@@ -129,7 +123,7 @@ a:hover {
       font-size: 75%;
       line-height: 1.6*.75;
    }
-   background: url("../img/menu-hand-red.png") no-repeat -9999px -9999px;
+   background: #fff url("../img/menu-hand-red.png") no-repeat -9999px -9999px;
 }
 
 .navList {
