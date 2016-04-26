@@ -1,15 +1,7 @@
-# humanstxt.org/
-# The humans responsible & technology colophon
+/* Humans who did this */
+Epidiah Ravachol (he wrote the game, so his name comes first)
+Andrew Eakett (he came along and formatted it to put on the web)
 
-# TEAM
-
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
-
-# TECHNOLOGY COLOPHON
-
-    CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+/* Technical Stuff */
+Jekyll
+Foundation 5
