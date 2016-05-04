@@ -3,3 +3,4 @@ dist
 *.DS_Store
 webfonts_Attic.zip
 dread.pdf
+/node_modules/
